@@ -33,5 +33,5 @@
   - Below is the ROC plot for all three models
   
 
-![alt text](https://github.com/sanket203/ML-repo/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/sanket203/ML-repo/blob/main/ROC.png "Logo Title Text 1")
 
