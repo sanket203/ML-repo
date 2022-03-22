@@ -1,5 +1,11 @@
-# ML-repo
-## Problem Stateemnt: Fake news article detection
+# Fake News Article Detection
+
+## Setup:
+  * There are two jupyter noteboos
+    - clean_data.ipynb is for preprocessing and cleaning the train and test data. This file generates clean_train.csv and clean_test csv
+    - train_models.ipynb is for training the model and predict on test data. This file uses previously generated clean_train.csv and clean_test.csv
+  * train_models.ipynb generates output_submit.csv which contains required results for test data.
+
 ## Approach:
 ### Exploratory data analysis
   - Visualized the data inform of bar chart to check data imbalance with respect to categories. Data was balnced perfectly hence no need of oversampling
@@ -34,4 +40,8 @@
   
 
 ![alt text](https://github.com/sanket203/ML-repo/blob/main/ROC.png "Logo Title Text 1")
+
+### Model selection
+* After analysing above results for all three models . Logistic Regression model is selected as best model for prediction.
+* Predictions are done on articles from clean_test.csv and results are saved to output_submit.csv
 
