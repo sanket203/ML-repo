@@ -34,6 +34,7 @@
 | Logistic regression      | 0.96 |  0.97 | 0.95 | 0.95 | 0.97 | 0.96| 0.96 |
 | Naive Bayes     | 0.86      |   0.79 | 0.99 | 0.99 | 0.72 | 0.88 | 0.83 |
 | Random Forest | 0.94      |   0.92 | 0.96 | 0.96 | 0.91 | 0.94 |0.93 |
+| LSTM |  0.97  | 0.97  | 0.98  | 0.98  | 0.97  | 0.97  | 0.97 |
 
 ### ROC plot
   - Below is the ROC plot for all three models
@@ -42,6 +43,6 @@
 ![alt text](https://github.com/sanket203/ML-repo/blob/main/ROC.png "Logo Title Text 1")
 
 ### Model selection
-* After analysing above results for all three models . Logistic Regression model is selected as best model for prediction.
+* After analysing above results for all three models . Logistic Regression and LSTM model is selected as best model for prediction.
 * Predictions are done on articles from clean_test.csv and results are saved to output_submit.csv
 
